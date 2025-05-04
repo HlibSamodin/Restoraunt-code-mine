@@ -12,11 +12,9 @@
     --input-border: rgba(245, 239, 219, 1);
     --decor-color: rgba(250, 250, 250, 1);
     --btn-second-txt-color: rgba(12, 11, 8, 1);
-    --letter-spacing-second: 0.03;
     --line-height-smaller: 1.35;
     --line-height-third: 1.3;
     --letter-spacing-second: 0.03em;
-    --line-height-smaller: 1.35 --line-height-third: 1.3;
     --letter-spacing-third: 0.05em;
     --form-border-color: rgba(220, 202, 135, 0.2);
     --updates-img-border: rgba(196, 196, 196, 1);
@@ -253,10 +251,11 @@ body {
     border: 1px solid var(--main-txt);
     margin-left: 32px;
 }
-.table{
+.table {
     padding-top: 152px;
     padding-bottom: 152px;
 }
+
 .table-container {
     background-color: var(--btn-txt);
     border: 1px solid var(--main-txt);
@@ -302,7 +301,6 @@ body {
     font-weight: 600;
     font-family: var(--font-family);
     font-size: 16px;
-    letter-spacing: 4%;
 }
 
 .table-form {
@@ -317,7 +315,6 @@ body {
     font-weight: 700;
     font-family: var(--font-family);
     font-size: 16px;
-    letter-spacing: 4%;
     background-color: var(--main-txt);
     border: 1px solid var(--main-txt);
 }
